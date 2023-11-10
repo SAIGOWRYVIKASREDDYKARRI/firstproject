@@ -21,8 +21,6 @@ class unaryop
 		{
 			unaryop k;
 			k.x=-i.x;
-			k.y=-i.y;
-			k.z=-i.z;
 			return k;
 		}
 };
@@ -30,8 +28,6 @@ int main()
 {
 	unaryop u;
 	u=unaryop(5,-9,8);
-	u.display();
-	-u;
 	u.display();
 	return 0;
 }
