@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class base
+ base
 {
 	protected:
 		int a;
@@ -13,11 +13,7 @@ class derived:public base
 		{
 			cout<<"enter a,b"<<endl;
 			cin>>a>>b;
-		}
-		void show()
-		{
-			cout<<a<<"\t"<<b;
-		}
+
 };
 int main()
 {
